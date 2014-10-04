@@ -1,0 +1,96 @@
+.calcBtnExt {           /* extend bootstrap button */
+    width: 44px;
+    height: 45px;
+    font-size: 22px;
+    padding: 0px 0px;
+    margin-right: 2px;
+    margin-left: 2px;
+    outline: none;
+}
+.calcBtnExt:focus,
+.calcBtnExt:active,
+.calcBtnExt.active {
+    color: #fff;
+    background-color: #e55d4b !important;
+    border-color: #fe4f0a;
+    outline: none;
+    background-image: none;
+}
+.clearCalcBtn {         /* clear calculator button */
+    color: black;
+    background-color: LightGray;
+    padding-top: 0px;
+    font-size: 13px;
+    line-height: 0px;
+    text-align: right;
+    margin-right: 6px;
+    width: 40px;
+    float:right;
+    outline: none;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+}
+.clearCalcBtn:hover {
+    color: gray;
+    outline: none;
+}
+.clearCalcBtn:focus,
+.clearCalcBtn:active {
+    color: #fff;
+    outline: none;
+}
+.clearCalcBtnDiv {
+    position: relative;
+    background-color: gray;
+    margin-bottom: 10px;
+    line-height: 0px;
+    width: 190px;
+    height: 0px ;
+    padding-bottom: 0px;
+}
+.calcBtnView {          /* view for calculator buttons */
+    line-height: 50px;
+    width: 202px;
+    padding-top:65px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom:5px;
+    background-color: LightGray ;
+    border-radius: 5px;
+}
+.calcDisplayInput {     /* display that displays digits */
+    padding-right: 3px;
+    width: 190px;
+    text-align: right;
+    color: black;
+    background-color: LightBlue;
+    font-size: 30px;
+    margin-right: 15px;
+    border-radius: 6px;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+}
+.calcDisplayView {      /* view for display */
+    position: absolute;
+    width: 200px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom:5px;
+    background-color: LightGray ;
+    border-radius: 5px;
+}
+.calcView {             /* calculator's view */
+    position: absolute;
+    left: 500px;
+    top:200px;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 6px;
+    outline: none;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+}
