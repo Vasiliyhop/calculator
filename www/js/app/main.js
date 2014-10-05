@@ -1,5 +1,5 @@
 var vent = _.extend({}, Backbone.Events);
-$.getScript( "js/mvClasses.js", function () {
+requirejs(["js/app/mvClasses.js"], function () {
 
     //....instance of buttons collection creation
     var buttonsCollection = new Calculator.Collections.ButtonsCollection([
@@ -84,7 +84,6 @@ $.getScript( "js/mvClasses.js", function () {
             action : 'plus'
         }
     ]);
-
     //..........instance of buttons collection view
     var buttonsCollectionView = new Calculator.Views.ButtonsCollection({collection: buttonsCollection});
 
@@ -118,7 +117,7 @@ $.getScript( "js/mvClasses.js", function () {
     });
 
     //...............MVC  Controller load
-    $.getScript( "js/controller.js" );
+    requirejs( ["js/app/controller.js"] );
 });
 
 

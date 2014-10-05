@@ -1,5 +1,5 @@
 //.......MVC --> Controller
-window.Calculator.Views.Controller = Backbone.View.extend({
+Calculator.Views.Controller = Backbone.View.extend({
     actionStack: '',                // operator stack
     numberStack: 0,                 // number   stack
     currentNumber: '0',             // display  number

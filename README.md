@@ -1,4 +1,4 @@
 calculator
 ==========
 
-test calculator   / jquery, underscore, backbone, bootstrap /
+test calculator   / requirejs, jquery, underscore, backbone, bootstrap /

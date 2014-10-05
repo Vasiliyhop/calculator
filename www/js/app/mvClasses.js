@@ -1,5 +1,5 @@
 //...............root object
-window.Calculator = {
+Calculator = {
     Models: {},
     Views: {},
     Collections:{}
